@@ -1,0 +1,87 @@
+.hero-section>.container {
+    display: flex;
+}
+
+.hero-section {
+    background: linear-gradient(90deg, #36526A 5.74%, rgba(55, 107, 151, 0) 93.38%), url('../img/section1.jpg');
+    background-size: cover;
+    display: flex;
+    padding-top: 25px;
+
+    &_text {
+        width: 298px;
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1.2;
+        color: #FFFFFF;
+        margin-top: 149px;
+    }
+
+    &_view {
+        width: 298px;
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1.2;
+        color: #FFFFFF;
+    }
+
+    &_arrow {
+        margin-left: 40px;
+    }
+
+    &_button {
+        margin-top: 40px;
+    }
+
+    &_div1 {
+        width: 717px;
+    }
+
+    &_socials {
+        height: 600px;
+        margin-top: 52px;
+        padding: 124px 59px 0 629px;
+        background: url('../img/hero-people.png');
+    }
+
+    &_switch {
+        font-family: 'Hammersmith One';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1.25;
+        text-align: center;
+        color: #FFFFFF;
+        padding-left: 500px;
+    }
+
+    &_item {
+        margin-top: 26px;
+        fill: #FFFFFF;
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+
+    &_svg {
+        fill: #FFFFFF;
+    }
+}
+
+.hero-section_button,
+.trailer-section_button {
+    display: block;
+    width: 260px;
+    height: 80px;
+    background: #0B0E66;
+    border: 3px solid #26C7EA;
+    border-radius: 45px 0px;
+    padding: 0 30px;
+    font-family: 'Headland One';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.25;
+    text-align: center;
+    color: #26C7EA;
+}

@@ -1,0 +1,56 @@
+.tongue-section {
+    padding: 32px 0 43px;
+    background: url('../img/quotation-logo.jpg');
+    background-size: cover;
+}
+
+.tongue-section_list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1033px;
+    justify-content: space-between;
+}
+
+.tongue-section_item {
+    background: rgba(255, 255, 255, 0.7);
+    width: 320px;
+    height: 240px;
+    padding: 36px 0;
+}
+
+.tongue-section_item:nth-child(n+4) {
+    margin-top: 24px;
+}
+
+.tongue-section_title {
+    font-family: 'Headland One';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.25;
+    text-align: center;
+    color: #141414;
+}
+
+.tongue-section_text {
+    font-family: 'Headland One';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1;
+    text-align: center;
+    color: #141414;
+}
+
+.tongue-section_img {
+    display: block;
+    margin: 40px auto 0;
+}
+
+.tongue-section_explanation {
+    font-family: 'Headland One';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1;    
+    text-align: center;
+    color: #000000;
+    margin-top: 40px;
+}
