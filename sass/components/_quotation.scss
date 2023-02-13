@@ -1,27 +1,19 @@
 .quotation-section {
     padding: 73px 0 10px;
-}
 
-.quotation-section_title {
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 1.22;
-    text-align: center;
-    color: #0A3853;
-}
+    &_title {
+        @include text-style(400, 36px, 1.22, 'Inter', center);
+        color: $quotation-text-color;
+    }
 
-.quotation-section_text {
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 1.2;
-    text-align: center;
-    color: #000000;
-    margin-top: 16px;
-}
+    &_text {
+        @include text-style(400, 24px, 1.2, 'Inter', center);
+        color: $quotation-section-color;
+        margin-top: 16px;
+    }
 
-.quotation-section_img {
-    margin: 8px auto 0;
-    display: block;
+    &_img {
+        margin: 8px auto 0;
+        display: block;
+    }
 }

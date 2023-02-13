@@ -12,7 +12,7 @@
 }
 
 .tongue-section_item {
-    background: rgba(255, 255, 255, 0.7);
+    background: $tongue-background-rbga;
     width: 320px;
     height: 240px;
     padding: 36px 0;
@@ -23,21 +23,13 @@
 }
 
 .tongue-section_title {
-    font-family: 'Headland One';
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 1.25;
-    text-align: center;
-    color: #141414;
+    @include text-style(400, 32px, 1.25, 'Headland One', center);
+    color: $tongue-section-color;
 }
 
 .tongue-section_text {
-    font-family: 'Headland One';
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 1;
-    text-align: center;
-    color: #141414;
+    @include text-style(400, 32px, 1, 'Headland One', center);
+    color: $tongue-section-color;
 }
 
 .tongue-section_img {
@@ -46,11 +38,7 @@
 }
 
 .tongue-section_explanation {
-    font-family: 'Headland One';
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 1;    
-    text-align: center;
-    color: #000000;
+    @include text-style(400, 32px, 1, 'Headland One', center);
+    color: $quotation-section-color;
     margin-top: 40px;
 }
